@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  border-style: solid;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: #e6e6e6;
+  background-color: #f9f9f9;
+  position: relative;
+  svg {
+    margin: auto;
+  }
+}
+input {
+  background-color: #f9f9f9;
+  box-shadow: none;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  border: 0;
+  padding: 10px;
+  max-width: 70%;
+}
