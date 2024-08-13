@@ -7,7 +7,7 @@ import Search from "../search/search";
 
 const Navbar = () => {
   return (
-    <Container>
+    <Container className="nav-container">
       <Grid templateColumns="repeat(3, 1fr)" gap={6}>
         <GridItem className="logo">
           <Image src={logo} alt="Coronita" width="60px" objectFit="cover" />

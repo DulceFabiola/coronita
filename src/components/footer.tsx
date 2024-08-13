@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Grid, GridItem, Text } from "@chakra-ui/react";
 import { FaFacebookSquare } from "react-icons/fa";
 import { AiFillTikTok } from "react-icons/ai";
+
 const Footer = () => {
   return (
     <Container className="footer-container">
