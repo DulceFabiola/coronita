@@ -1,14 +1,24 @@
 .main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+  margin: 15px;
+  flex-direction: column;
+  flex: 1;
+}
+.nav-container {
   justify-content: center;
   align-items: center;
   align-content: center;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  overflow: hidden;
-  height: auto;
-  padding: 15px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .logo {
   display: flex;
