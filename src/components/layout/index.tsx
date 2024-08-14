@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./navbar";
-import Footer from "../footer";
+import Footer from "./footer";
 import { Container } from "@chakra-ui/react";
 import { Outlet } from "react-router-dom";
 import "./index.css";

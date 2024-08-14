@@ -5,19 +5,23 @@
   border-width: 1px;
   border-color: #e6e6e6;
   background-color: #f9f9f9;
+  width: 100%;
   position: relative;
-  width: 90%;
   svg {
     margin: auto;
+    position: absolute;
+    right: 10px;
   }
-}
-input {
-  background-color: #f9f9f9;
-  box-shadow: none;
-  display: "flex";
-  justify-content: "center";
-  align-items: "center";
-  border: 0;
-  padding: 10px;
-  max-width: 70%;
+  input {
+    background-color: #f9f9f9;
+    box-shadow: none;
+    border: 0;
+    border-radius: 6;
+    padding: 10px;
+    max-width: 100%;
+  }
+  input:focus {
+    outline: none;
+    box-shadow: none;
+  }
 }

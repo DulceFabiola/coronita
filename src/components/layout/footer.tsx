@@ -7,13 +7,13 @@ const Footer = () => {
   return (
     <Container className="footer-container">
       <Grid templateColumns="repeat(3, 1fr)" gap={6}>
-        <GridItem>
+        <GridItem className="box-item">
           <Text className="title">Conócenos</Text>
         </GridItem>
-        <GridItem>
-          <Text className="title">Preguntas y ayuda</Text>
+        <GridItem className="box-item">
+          <Text className="title">Preguntas frecuentes</Text>
         </GridItem>
-        <GridItem>
+        <GridItem className="box-item">
           <Text className="title">Redes sociales</Text>
           <Grid templateColumns="repeat(3, 1fr)" gap={6}>
             <GridItem>
@@ -25,9 +25,7 @@ const Footer = () => {
           </Grid>
         </GridItem>
       </Grid>
-      <Text className="italic-title">
-        @2024 Copyright. Todos los derechos reservados Depósito Coronita
-      </Text>
+      <Text className="subtitle">Depósito Coronita</Text>
     </Container>
   );
 };

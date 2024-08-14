@@ -1,18 +1,29 @@
 .main-container {
-  display: flex;
-  justify-content: center;
   align-items: center;
   align-content: center;
-  overflow: hidden;
-  margin: 15px;
+  display: flex;
   flex-direction: column;
   flex: 1;
+  max-width: 1440px;
+  margin: auto;
+  justify-content: center;
+  overflow: hidden;
+  padding: 15px 15px 0px 15px;
+  overflow-x: hidden;
+  position: relative;
+  height: 100%;
+  font-family: "Montserrat";
 }
 .nav-container {
   justify-content: center;
   align-items: center;
   align-content: center;
   display: flex;
+  width: 100%;
+  margin: auto;
+}
+.grid {
+  width: 100%;
 }
 .container {
   display: flex;
@@ -20,16 +31,38 @@
   align-items: center;
   align-content: center;
 }
-.logo {
+.box {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
+}
+.box-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  position: relative;
+}
+.box-rigt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  right: 0;
+  position: relative;
+  padding-right: 15px;
 }
 
 .footer-container {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
   bottom: 0;
-  padding: 15px;
+  left: 0;
 }
 .title {
   font-size: 13px;
@@ -38,6 +71,10 @@
   }
 }
 
-.italic-title {
+.subtitle {
   font-size: 12px;
+}
+
+.box-item {
+  margin: 5px;
 }
