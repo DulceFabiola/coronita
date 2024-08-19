@@ -1,13 +1,13 @@
 import React from "react";
 import HomeBanner from "../../components/homeBanner/banner";
-import { Container } from "@chakra-ui/react";
 import ProductList from "../../components/products/productList";
+import "./index.css";
 const HomePage = () => {
   return (
-    <Container>
+    <>
       <HomeBanner />
       <ProductList />
-    </Container>
+    </>
   );
 };
 

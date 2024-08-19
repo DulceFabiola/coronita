@@ -25,7 +25,7 @@ const Footer = () => {
           </Grid>
         </GridItem>
       </Grid>
-      <Text className="subtitle">Depósito Coronita</Text>
+      <Text className="footer-title">Depósito Coronita</Text>
     </Container>
   );
 };
