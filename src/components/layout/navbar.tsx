@@ -8,14 +8,14 @@ import Search from "../search/search";
 const Navbar = () => {
   return (
     <Container className="nav-container">
-      <Grid templateColumns="repeat(3, 1fr)" gap={2} className="grid">
+      <Grid templateColumns="repeat(4, 1fr)" gap={1} className="grid">
         <GridItem className="box-left">
           <Image src={logo} alt="Coronita" width="60px" objectFit="cover" />
         </GridItem>
-        <GridItem className="box">
+        <GridItem colStart={2} colEnd={4} className="box">
           <Search />
         </GridItem>
-        <GridItem colStart={3} className="box-rigt">
+        <GridItem colStart={4} className="box-rigt">
           <VscAccount />
         </GridItem>
       </Grid>

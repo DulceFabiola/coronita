@@ -4,8 +4,6 @@ import {
   Card,
   CardBody,
   CardFooter,
-  Container,
-  Divider,
   Heading,
   Image,
   Stack,
@@ -16,31 +14,29 @@ import "./index.css";
 
 const ProductCard = () => {
   return (
-    <Container className="wrapper">
-      <Card maxW="lg">
-        <CardBody>
-          <Image
-            src={product}
-            alt="Corona"
-            borderRadius="lg"
-            className="card-image"
-          />
-          <Stack mt="6" spacing="3">
-            <Heading size="md">Corona </Heading>
-            <Text>355ml</Text>
-            <Text color="blue.600" fontSize="2xl">
-              $450
-            </Text>
-          </Stack>
-        </CardBody>
-        <Divider />
-        <CardFooter>
-          <Button variant="ghost" colorScheme="blue">
-            Agregar a carrito
-          </Button>
-        </CardFooter>
-      </Card>
-    </Container>
+    <Card maxW="100%">
+      <CardBody>
+        <Image
+          borderRadius="lg"
+          src={product}
+          alt="Corona"
+          className="card-image"
+        />
+        <Stack spacing="1">
+          <Heading size="md" className="tittle">
+            Corona
+          </Heading>
+          <Text className="label">Descripcion</Text>
+          <Text className="strike">$567</Text>
+          <Text as="samp">$450</Text>
+        </Stack>
+      </CardBody>
+      <CardFooter className="wrapper">
+        <Button size="sm" borderRadius="md" minW="8rem" fontSize="xs">
+          Agregar a carrito
+        </Button>
+      </CardFooter>
+    </Card>
   );
 };
 
