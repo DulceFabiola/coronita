@@ -18,7 +18,8 @@
   font-size: 14px;
 }
 .strike {
-  font-size: 12px;
-  color: red;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #0000008c;
   text-decoration: line-through;
 }
