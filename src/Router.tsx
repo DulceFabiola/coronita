@@ -3,6 +3,7 @@ import { ChakraProvider, Container } from "@chakra-ui/react";
 import PrimaryLayout from "./components/layout";
 import HomePage from "./pages/home";
 import LoginPage from "./pages/login";
+import ProductDetailsPage from "./pages/productDetails";
 import theme from "../src/theme";
 import "../src/components/layout/index.css";
 const Router = () => {
@@ -13,6 +14,7 @@ const Router = () => {
           <Routes>
             <Route path="/" element={<PrimaryLayout />}>
               <Route index element={<HomePage />} />
+              <Route path="/producto/:id" element={<ProductDetailsPage />} />
               {/* Rutas de Usuario*/}
               <Route path="inicio-sesion" element={<LoginPage />} />
             </Route>
