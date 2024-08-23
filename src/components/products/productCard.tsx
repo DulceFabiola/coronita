@@ -30,7 +30,7 @@ const ProductCard = () => {
             </Heading>
             <Text className="label">Descripcion</Text>
             <Text className="strike">$567</Text>
-            <Text fontSize="3xl">$450</Text>
+            <Text fontSize="xl">$450</Text>
           </Stack>
         </CardBody>
       </Link>

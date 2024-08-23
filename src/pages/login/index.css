@@ -11,3 +11,17 @@
   width: 100%;
   background-color: #f7f7f7;
 }
+
+.links-container {
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+
+  a:link {
+    border-bottom: 1px solid;
+  }
+  a:hover {
+    border-bottom: 1px solid;
+  }
+}
