@@ -20,7 +20,9 @@ const Navbar = () => {
           <Search />
         </GridItem>
         <GridItem colStart={4} className="box-rigt">
-          <VscAccount />
+          <Link to="/inicio-sesion">
+            <VscAccount />
+          </Link>
         </GridItem>
       </Grid>
     </Container>
